@@ -12,7 +12,7 @@ public class CarDao {
     public List<Car> getAllCars(){
 
         List<Car> list=new ArrayList<Car>();
-        ResultSet rs= Conn.executeQuery("select * from CarSystem",new Object[]{});
+        ResultSet rs= Conn.executeQuery("select * from Car",new Object[]{});
         Car c=null;
         try {
             while (rs.next()){
@@ -37,7 +37,7 @@ public class CarDao {
         int limit=(page-1)*size;
 
         List<Car> list=new ArrayList<Car>();
-        ResultSet rs= Conn.executeQuery("select * from CarSystem limit ?,?",new Object[]{limit,size});
+        ResultSet rs= Conn.executeQuery("select * from Car limit ?,?",new Object[]{limit,size});
         Car c=null;
         try {
             while (rs.next()){

@@ -6,6 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="car-dao" />
+        <module name="car-entity" />
+        <module name="car-service" />
+        <module name="car-show" />
+        <module name="car-utils" />
         <module name="cardao" />
         <module name="carentity" />
         <module name="carservice" />

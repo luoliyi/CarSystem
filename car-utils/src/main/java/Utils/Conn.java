@@ -20,7 +20,7 @@ public class Conn {
         // URL指向要访问的数据库名******,8.0jar包新增时区。
         String url = "jdbc:mysql://localhost/CarSystemDB?serverTimezone=GMT%2B8";
         // MySQL配置时的用户名
-        String user = "one";
+        String user = "root";
         // Java连接MySQL配置时的密码******
         String password = ".asamu.654";
 
