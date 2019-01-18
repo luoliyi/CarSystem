@@ -18,11 +18,11 @@ public class Conn {
         //驱动程序名//不固定，根据驱动
         String driver = "com.mysql.jdbc.Driver";
         // URL指向要访问的数据库名******,8.0jar包新增时区。
-        String url = "jdbc:mysql://localhost/CarSystemDB?serverTimezone=GMT%2B8";
+        String url = "jdbc:mysql://nf513.cn/CarSystemDB?serverTimezone=GMT%2B8";
         // MySQL配置时的用户名
         String user = "root";
         // Java连接MySQL配置时的密码******
-        String password = ".asamu.654";
+        String password = "10086";
 
         try {
             // 加载驱动程序
